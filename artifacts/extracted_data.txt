@@ -15,19 +15,19 @@ Thus, the World Wars were not spontaneous events but the culmination of deep-roo
 
 World War I, also known as the Great War, erupted in 1914 and lasted until 1918. It was triggered by the assassination of Archduke Franz Ferdinand of Austria-Hungary, but the conflict quickly expanded due to complex alliances, nationalism, militarism, and imperial rivalries among the major powers. The war involved two main coalitions: the Allies, including France, the United Kingdom, Russia, and later the United States; and the Central Powers, primarily Germany, Austria-Hungary, and the Ottoman Empire. Characterized by trench warfare, new military technologies such as machine guns, tanks, and chemical weapons, and unprecedented levels of casualties, the war resulted in the loss of over 16 million lives. The conflict ended with the signing of the Treaty of Versailles in 1919, which imposed harsh penalties on Germany and reshaped the political landscape of Europe. World War I profoundly affected global geopolitics, society, and set the stage for major events in the 20th century, including World War II.
 
-| Category             | Estimated Number | Notes                                                                     |
-|----------------------|--------------------|-----------------------------------------------------------------------------|
-| Duration             | 1914 – 1918       | 4 years                                                                  |
-| Total Military Personnel | ~65 million        | Soldiers mobilized worldwide                                               |
-| Total Military Deaths  | ~9 million         | Includes combat and non-combat deaths                                      |
-| Total Civilian Deaths  | ~7 million         | Due to military action, famine, disease                                   |
-| Major Allied Powers   | 4                  | France, UK, Russia, USA                                                    |
-| Major Central Powers  | 3                  | Germany, Austria-Hungary, Ottoman Empire                                   |
-| Number of Battles     | 20+                | Significant large-scale battles                                             |
-| New Technologies Used | 5                  | Machine guns, tanks, airplanes, poison gas, submarines                       |
+| Category             | Estimated Number | Notes                                                                   |
+|----------------------|--------------------|---------------------------------------------------------------------------|
+| Duration             | 1914–1918          | 4 years                                                                 |
+| Total Military Personnel | ~65 million        | Soldiers mobilized worldwide                                             |
+| Total Military Deaths  | ~9 million         | Includes combat and non-combat deaths                                    |
+| Total Civilian Deaths  | ~7 million         | Due to military action, famine, disease                                |
+| Major Allied Powers   | 4                  | France, UK, Russia, USA                                                  |
+| Major Central Powers  | 3                  | Germany, Austria-Hungary, Ottoman Empire                               |
+| Number of Battles     | 20+                | Significant large-scale battles                                         |
+| New Technologies Used | 5                  | Machine guns, tanks, airplanes, poison gas, submarines                   |
 
 
-**We Can Do It!**  (Image Text)
+**We Can Do It!** (Image Text)
 
 **I WANT YOU FOR U.S. ARMY NEAREST RECRUITING STATION** (Image Text)
 
@@ -36,15 +36,15 @@ World War I, also known as the Great War, erupted in 1914 and lasted until 1918.
 
 World War II, lasting from 1939 to 1945, was the deadliest and most widespread conflict in human history. It began with the invasion of Poland by Nazi Germany, led by Adolf Hitler, and soon expanded as Axis powers—Germany, Italy, and Japan—sought territorial expansion. The Allies, including the United States, the Soviet Union, the United Kingdom, and China, opposed them in a global war that engulfed Europe, Asia, Africa, and the Pacific. This war introduced devastating new weapons, such as nuclear bombs, and witnessed horrific events including the Holocaust, which resulted in the genocide of six million Jews and millions of others. The war ended with the unconditional surrender of the Axis powers in 1945, reshaping global politics, leading to the United Nations' creation, the beginning of the Cold War, and significant changes in the world order.
 
-| Category             | Estimated Number | Notes                                                                     |
-|----------------------|--------------------|-----------------------------------------------------------------------------|
-| Duration             | 1939 – 1945       | 6 years                                                                  |
-| Total Military Personnel | ~110 million       | Soldiers mobilized worldwide                                               |
-| Total Military Deaths  | ~25 million        | Includes combat and non-combat deaths                                      |
-| Total Civilian Deaths  | ~45 million        | Due to bombings, genocide, famine, disease                                   |
-| Major Allied Powers   | 4                  | USA, Soviet Union, UK, China                                              |
-| Major Axis Powers    | 3                  | Germany, Italy, Japan                                                       |
-| Number of Battles     | 50+                | Large-scale battles worldwide                                             |
+| Category             | Estimated Number | Notes                                                                   |
+|----------------------|--------------------|---------------------------------------------------------------------------|
+| Duration             | 1939–1945          | 6 years                                                                 |
+| Total Military Personnel | ~110 million       | Soldiers mobilized worldwide                                             |
+| Total Military Deaths  | ~25 million        | Includes combat and non-combat deaths                                    |
+| Total Civilian Deaths  | ~45 million        | Due to bombings, genocide, famine, disease                               |
+| Major Allied Powers   | 4                  | USA, Soviet Union, UK, China                                             |
+| Major Axis Powers    | 3                  | Germany, Italy, Japan                                                    |
+| Number of Battles     | 50+                | Large-scale battles worldwide                                           |
 | New Technologies Used | 7                  | Tanks, aircraft carriers, radar, nuclear weapons, rockets, jet engines, codebreaking |
 
 

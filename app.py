@@ -5,15 +5,17 @@ import types
 import torch
 from datetime import datetime
 import logging
-# Set up logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-# from streamlit.runtime.scriptrunner import rerun
-
+from markdown_it import MarkdownIt
 from source.utils.paths import paths
 from source.pdf_manager import process_and_save_pdf_pipeline
 from source.vector_db_manager import vector_db_pipeline
 from source.rag_chain_manager import build_question_answering_chain
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
 
 # Prevent Streamlit from scanning torch.classes
 if isinstance(torch.classes, types.ModuleType):
@@ -30,32 +32,28 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history.append(("assistant", 
     "Hi! I’m your personal AI assistant. I’m here to help you understand and explore the PDFs you provide. Just ask me anything!",
     datetime.now()))
-# --- Sidebar: PDF Controls ---
+
 
 # --- Sidebar: PDF Controls ---
 with st.sidebar:
     st.title("📁 Manage PDF")
 
-    # Upload PDF
     uploaded_file = st.file_uploader("Upload a PDF", type=["pdf"])
 
-    # Check if new file was uploaded and not processed yet
     if uploaded_file and ("last_uploaded_file" not in st.session_state or 
-                            st.session_state.last_uploaded_file != uploaded_file.name):        # Remove any existing PDF
+                            st.session_state.last_uploaded_file != uploaded_file.name):      
         for f in os.listdir(pdf_dir):
             if f.endswith(".pdf"):
                 os.remove(os.path.join(pdf_dir, f))
 
-        # Save new file
         new_file_path = os.path.join(pdf_dir, uploaded_file.name)
         with open(new_file_path, "wb") as f:
             f.write(uploaded_file.getbuffer())
 
-        st.session_state.last_uploaded_file = uploaded_file.name  # Mark as processed
+        st.session_state.last_uploaded_file = uploaded_file.name  
 
         st.success(f"Uploaded and replaced previous PDF with: {uploaded_file.name}")
 
-        # Run the pipelines
         with st.spinner("Processing and indexing the new PDF..."):
             process_and_save_pdf_pipeline()
             vector_db_pipeline()
@@ -63,7 +61,6 @@ with st.sidebar:
 
         st.rerun()
 
-    # Show currently available PDF
     current_pdfs = [f for f in os.listdir(pdf_dir) if f.endswith(".pdf")]
     if current_pdfs:
         st.markdown(f"**Current PDF:** `{current_pdfs[0]}`")
@@ -81,6 +78,7 @@ with st.sidebar:
     
 
 # --- Main App ---
+
 st.title("🧠 RAG Chat Assistant")
 st.markdown("Ask a question based on your uploaded PDFs.")
 
@@ -115,7 +113,6 @@ with st.form(key="chat_form", clear_on_submit=True):
                 datetime.now()))
 
 
-from markdown_it import MarkdownIt
 
 md = MarkdownIt()
 
@@ -130,7 +127,6 @@ def update_chat_html():
         icon = "🧑‍💼" if role == "user" else "🤖"
         time_str = timestamp.strftime("%H:%M")
 
-        # ✅ Convert markdown to HTML
         rendered_msg = md.render(msg)
 
         chat_html += f"""
@@ -144,7 +140,6 @@ def update_chat_html():
     st.session_state.chat_html = chat_html
 
 
-# ✅ After the form block, update the chat HTML
 update_chat_html()
 html(st.session_state.chat_html, height=400, scrolling=True)
 
