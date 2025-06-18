@@ -82,6 +82,13 @@ run :
     ollama run llama3-chatqa:8b  
 
 
+## ➡️ Step 5 : Setup Gemini api key 
+
+Copy and Paste the api key I provided in the email attachment inside .env file 
+
+These can not be publically shared for security purposes. 
+
+
 
 ## ➡️ Step 5 : Run the Streamlit UI 
 
