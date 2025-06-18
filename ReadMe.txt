@@ -90,7 +90,7 @@ These can not be publically shared for security purposes.
 
 
 
-## ➡️ Step 5 : Run the Streamlit UI 
+## ➡️ Step 6 : Run the Streamlit UI 
 
 From the project directory open terminal and  
 
