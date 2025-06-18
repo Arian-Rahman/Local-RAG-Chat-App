@@ -1,0 +1,11 @@
+Install Models Locally : 
+
+Downlaod Ollama from Official website https://ollama.com/download
+
+ollama run deepseek-r1:14b  # 128K context window 
+
+ollama run llama3-chatqa:8b  # 8k token
+
+ollama run krith/meta-llama-3.1-8b-instruct  # 128K context window 
+
+ollama run bobofrut/llama3-chatqa-2-8b-q8_0 # 128k

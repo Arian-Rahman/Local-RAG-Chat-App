@@ -1,0 +1,24 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pyo
+
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+
+# Ignore .DS_Store (macOS)
+.DS_Store
+
+# Ignore models folder contents but keep the folder
+models/*
+!models/.gitkeep
+touch models/.gitkeep
+
+# Ignore Streamlit temporary files
+.streamlit/config.toml
