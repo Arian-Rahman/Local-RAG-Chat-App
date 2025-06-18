@@ -16,9 +16,9 @@ https://www.anaconda.com/download
 
 Choose based on your OS:
 
-- **Windows**: `Miniconda3 Windows 64-bit`
-- **macOS**: `Miniconda3 macOS Apple M series` or Intel version
-- **Linux**: `.sh` installer
+- Windows: `Miniconda3 Windows 64-bit`
+- macOS: `Miniconda3 macOS Apple M series` or Intel version
+- Linux: `.sh` installer
 
 Install the package and verify if it's installed 
 
